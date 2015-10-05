@@ -10,6 +10,14 @@
 		B9DF08BD1BC25CC4009F5787 /* SwSelect.h in Headers */ = {isa = PBXBuildFile; fileRef = B9DF08BC1BC25CC4009F5787 /* SwSelect.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B9DF08C41BC25CC4009F5787 /* SwSelect.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9DF08B91BC25CC4009F5787 /* SwSelect.framework */; settings = {ASSET_TAGS = (); }; };
 		B9DF08C91BC25CC4009F5787 /* SwSelectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DF08C81BC25CC4009F5787 /* SwSelectTests.swift */; };
+		B9DF08D41BC25CE3009F5787 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = B9DF08D31BC25CE3009F5787 /* LICENSE */; settings = {ASSET_TAGS = (); }; };
+		B9DF08D71BC26333009F5787 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DF08D61BC26333009F5787 /* Strings.swift */; settings = {ASSET_TAGS = (); }; };
+		B9DF08D91BC266D5009F5787 /* HTML.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DF08D81BC266D5009F5787 /* HTML.swift */; settings = {ASSET_TAGS = (); }; };
+		B9DF08DE1BC26B8E009F5787 /* libxml2.h in Headers */ = {isa = PBXBuildFile; fileRef = B9DF08DD1BC26B7D009F5787 /* libxml2.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		B9DF08E31BC275B6009F5787 /* module.modulemap in Resources */ = {isa = PBXBuildFile; fileRef = B9DF08E21BC275B6009F5787 /* module.modulemap */; settings = {ASSET_TAGS = (); }; };
+		B9DF08E61BC27AFF009F5787 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DF08E51BC27AFF009F5787 /* Parser.swift */; settings = {ASSET_TAGS = (); }; };
+		B9DF08E81BC27C59009F5787 /* Selector.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DF08E71BC27C59009F5787 /* Selector.swift */; settings = {ASSET_TAGS = (); }; };
+		B9DF08EB1BC2861F009F5787 /* SwSelect.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DF08EA1BC2861F009F5787 /* SwSelect.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +37,15 @@
 		B9DF08C31BC25CC4009F5787 /* SwSelectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwSelectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9DF08C81BC25CC4009F5787 /* SwSelectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwSelectTests.swift; sourceTree = "<group>"; };
 		B9DF08CA1BC25CC4009F5787 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9DF08D31BC25CE3009F5787 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		B9DF08D61BC26333009F5787 /* Strings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		B9DF08D81BC266D5009F5787 /* HTML.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTML.swift; sourceTree = "<group>"; };
+		B9DF08DD1BC26B7D009F5787 /* libxml2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = libxml2.h; path = /Users/julian/dev/iOSLab/SwSelect/SwSelect/libxml2/libxml2.h; sourceTree = "<absolute>"; };
+		B9DF08DF1BC2719E009F5787 /* libxml2.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.2.tbd; path = usr/lib/libxml2.2.tbd; sourceTree = SDKROOT; };
+		B9DF08E21BC275B6009F5787 /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+		B9DF08E51BC27AFF009F5787 /* Parser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
+		B9DF08E71BC27C59009F5787 /* Selector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Selector.swift; sourceTree = "<group>"; };
+		B9DF08EA1BC2861F009F5787 /* SwSelect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwSelect.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +70,9 @@
 		B9DF08AF1BC25CC4009F5787 = {
 			isa = PBXGroup;
 			children = (
+				B9DF08E91BC27D7F009F5787 /* Playground */,
+				B9DF08E11BC27519009F5787 /* libxml2 */,
+				B9DF08DF1BC2719E009F5787 /* libxml2.2.tbd */,
 				B9DF08BB1BC25CC4009F5787 /* SwSelect */,
 				B9DF08C71BC25CC4009F5787 /* SwSelectTests */,
 				B9DF08BA1BC25CC4009F5787 /* Products */,
@@ -73,6 +93,12 @@
 			children = (
 				B9DF08BC1BC25CC4009F5787 /* SwSelect.h */,
 				B9DF08BE1BC25CC4009F5787 /* Info.plist */,
+				B9DF08D31BC25CE3009F5787 /* LICENSE */,
+				B9DF08D61BC26333009F5787 /* Strings.swift */,
+				B9DF08D81BC266D5009F5787 /* HTML.swift */,
+				B9DF08E51BC27AFF009F5787 /* Parser.swift */,
+				B9DF08E71BC27C59009F5787 /* Selector.swift */,
+				B9DF08EA1BC2861F009F5787 /* SwSelect.swift */,
 			);
 			path = SwSelect;
 			sourceTree = "<group>";
@@ -86,6 +112,23 @@
 			path = SwSelectTests;
 			sourceTree = "<group>";
 		};
+		B9DF08E11BC27519009F5787 /* libxml2 */ = {
+			isa = PBXGroup;
+			children = (
+				B9DF08DD1BC26B7D009F5787 /* libxml2.h */,
+				B9DF08E21BC275B6009F5787 /* module.modulemap */,
+			);
+			name = libxml2;
+			path = SwSelect/libxml2;
+			sourceTree = SOURCE_ROOT;
+		};
+		B9DF08E91BC27D7F009F5787 /* Playground */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Playground;
+			sourceTree = SOURCE_ROOT;
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -94,6 +137,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B9DF08BD1BC25CC4009F5787 /* SwSelect.h in Headers */,
+				B9DF08DE1BC26B8E009F5787 /* libxml2.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,6 +186,7 @@
 		B9DF08B01BC25CC4009F5787 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = cowbay.wtf;
 				TargetAttributes = {
@@ -176,6 +221,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9DF08D41BC25CE3009F5787 /* LICENSE in Resources */,
+				B9DF08E31BC275B6009F5787 /* module.modulemap in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,6 +240,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9DF08D91BC266D5009F5787 /* HTML.swift in Sources */,
+				B9DF08D71BC26333009F5787 /* Strings.swift in Sources */,
+				B9DF08EB1BC2861F009F5787 /* SwSelect.swift in Sources */,
+				B9DF08E81BC27C59009F5787 /* Selector.swift in Sources */,
+				B9DF08E61BC27AFF009F5787 /* Parser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,40 +359,71 @@
 		B9DF08CE1BC25CC4009F5787 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				HEADER_SEARCH_PATHS = (
+					"$(SDKROOT)/usr/include/libxml2",
+					SwSelect/libxml2,
+				);
 				INFOPLIST_FILE = SwSelect/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "";
+				MODULEMAP_PRIVATE_FILE = "";
+				OTHER_LDFLAGS = "-lxml2";
 				PRODUCT_BUNDLE_IDENTIFIER = wtf.cowbay.SwSelect;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		B9DF08CF1BC25CC4009F5787 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				HEADER_SEARCH_PATHS = (
+					"$(SDKROOT)/usr/include/libxml2",
+					SwSelect/libxml2,
+				);
 				INFOPLIST_FILE = SwSelect/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "";
+				MODULEMAP_PRIVATE_FILE = "";
+				OTHER_LDFLAGS = "-lxml2";
 				PRODUCT_BUNDLE_IDENTIFIER = wtf.cowbay.SwSelect;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 		B9DF08D11BC25CC4009F5787 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(SDKROOT)/usr/include/libxml2",
+					SwSelect/libxml2,
+				);
 				INFOPLIST_FILE = SwSelectTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = "-lxml2";
 				PRODUCT_BUNDLE_IDENTIFIER = wtf.cowbay.SwSelectTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -349,8 +432,14 @@
 		B9DF08D21BC25CC4009F5787 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(SDKROOT)/usr/include/libxml2",
+					SwSelect/libxml2,
+				);
 				INFOPLIST_FILE = SwSelectTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = "-lxml2";
 				PRODUCT_BUNDLE_IDENTIFIER = wtf.cowbay.SwSelectTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
