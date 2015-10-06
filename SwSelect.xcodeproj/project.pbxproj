@@ -19,6 +19,8 @@
 		B9DF08E81BC27C59009F5787 /* Selector.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DF08E71BC27C59009F5787 /* Selector.swift */; settings = {ASSET_TAGS = (); }; };
 		B9DF08EB1BC2861F009F5787 /* SwSelect.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DF08EA1BC2861F009F5787 /* SwSelect.swift */; settings = {ASSET_TAGS = (); }; };
 		B9DF09291BC38A67009F5787 /* circle.yml in Resources */ = {isa = PBXBuildFile; fileRef = B9DF09281BC38A67009F5787 /* circle.yml */; settings = {ASSET_TAGS = (); }; };
+		B9DF092B1BC38DA4009F5787 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = B9DF092A1BC38DA4009F5787 /* README.md */; settings = {ASSET_TAGS = (); }; };
+		B9DF092D1BC38F87009F5787 /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = B9DF092C1BC38F87009F5787 /* .travis.yml */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,8 @@
 		B9DF08E71BC27C59009F5787 /* Selector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Selector.swift; sourceTree = "<group>"; };
 		B9DF08EA1BC2861F009F5787 /* SwSelect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwSelect.swift; sourceTree = "<group>"; };
 		B9DF09281BC38A67009F5787 /* circle.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = circle.yml; sourceTree = "<group>"; };
+		B9DF092A1BC38DA4009F5787 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B9DF092C1BC38F87009F5787 /* .travis.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +77,8 @@
 			isa = PBXGroup;
 			children = (
 				B9DF09281BC38A67009F5787 /* circle.yml */,
+				B9DF092A1BC38DA4009F5787 /* README.md */,
+				B9DF092C1BC38F87009F5787 /* .travis.yml */,
 				B9DF08E91BC27D7F009F5787 /* Playground */,
 				B9DF08E11BC27519009F5787 /* libxml2 */,
 				B9DF08DF1BC2719E009F5787 /* libxml2.2.tbd */,
@@ -226,6 +232,7 @@
 			files = (
 				B9DF09291BC38A67009F5787 /* circle.yml in Resources */,
 				B9DF08D41BC25CE3009F5787 /* LICENSE in Resources */,
+				B9DF092D1BC38F87009F5787 /* .travis.yml in Resources */,
 				B9DF08E31BC275B6009F5787 /* module.modulemap in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -244,6 +251,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9DF092B1BC38DA4009F5787 /* README.md in Sources */,
 				B9DF08D91BC266D5009F5787 /* HTML.swift in Sources */,
 				B9DF08D71BC26333009F5787 /* Strings.swift in Sources */,
 				B9DF08EB1BC2861F009F5787 /* SwSelect.swift in Sources */,

@@ -1,0 +1,4 @@
+language: swift
+script:
+    - xcodebuild -project SwSelect.xcodeproj -sdk iphonesimulator
+    - xcodebuild test -scheme SwSelect -sdk iphonesimulator
