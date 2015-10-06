@@ -487,6 +487,16 @@ public extension CollectionType where Self.Generator.Element == SwHTMLNode {
         
         return results
     }
+    
+    public var text:String {
+        var result:String = ""
+        
+        for n in self {
+            result += n.text
+        }
+        
+        return result
+    }
 }
 
 public extension SwHTMLNode {

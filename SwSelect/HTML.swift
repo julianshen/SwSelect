@@ -38,6 +38,21 @@ public struct SwHTMLNode:CustomStringConvertible {
         return _data
     }
     
+    public var text:String {
+        var result:String = ""
+        for c in children {
+            switch c.type {
+                case .TextNode:
+                    result += c.data
+                case .ElementNode:
+                    result += c.text
+                default:
+                    break
+            }
+        }
+        return result
+    }
+    
     public var type:SwHTMLNodeType {
         switch(_node.memory.type.rawValue) {
         case XML_ELEMENT_NODE.rawValue:

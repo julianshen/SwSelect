@@ -245,4 +245,19 @@ class SwSelectTests: XCTestCase {
             assertionFailure("Error testing find")
         }
     }
+    
+    func testText() {
+        let html:String = "<ul class=\"level-1\"><li class=\"l2\">Test2</li><li class=\"l1\">Test</li><li class=\"l1\">aaa</li></ul>"
+        do {
+            let $ = try SwSelect(html)
+            
+            var nodes = $( "ul" )
+            assert(nodes.first!.text == "Test2Testaaa")
+            
+            nodes = $(".l1")
+            assert(nodes.text == "Testaaa")
+        } catch {
+            assertionFailure("Error testing find")
+        }
+    }
 }
