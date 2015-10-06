@@ -42,7 +42,7 @@
 		B9DF08D31BC25CE3009F5787 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		B9DF08D61BC26333009F5787 /* Strings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
 		B9DF08D81BC266D5009F5787 /* HTML.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTML.swift; sourceTree = "<group>"; };
-		B9DF08DD1BC26B7D009F5787 /* libxml2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = libxml2.h; path = /Users/julian/dev/iOSLab/SwSelect/SwSelect/libxml2/libxml2.h; sourceTree = "<absolute>"; };
+		B9DF08DD1BC26B7D009F5787 /* libxml2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = libxml2.h; path = SwSelect/libxml2/libxml2.h; sourceTree = SOURCE_ROOT; };
 		B9DF08DF1BC2719E009F5787 /* libxml2.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.2.tbd; path = usr/lib/libxml2.2.tbd; sourceTree = SDKROOT; };
 		B9DF08E21BC275B6009F5787 /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
 		B9DF08E51BC27AFF009F5787 /* Parser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
