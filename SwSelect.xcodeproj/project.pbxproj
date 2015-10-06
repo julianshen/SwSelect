@@ -18,6 +18,7 @@
 		B9DF08E61BC27AFF009F5787 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DF08E51BC27AFF009F5787 /* Parser.swift */; settings = {ASSET_TAGS = (); }; };
 		B9DF08E81BC27C59009F5787 /* Selector.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DF08E71BC27C59009F5787 /* Selector.swift */; settings = {ASSET_TAGS = (); }; };
 		B9DF08EB1BC2861F009F5787 /* SwSelect.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DF08EA1BC2861F009F5787 /* SwSelect.swift */; settings = {ASSET_TAGS = (); }; };
+		B9DF09291BC38A67009F5787 /* circle.yml in Resources */ = {isa = PBXBuildFile; fileRef = B9DF09281BC38A67009F5787 /* circle.yml */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		B9DF08E51BC27AFF009F5787 /* Parser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
 		B9DF08E71BC27C59009F5787 /* Selector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Selector.swift; sourceTree = "<group>"; };
 		B9DF08EA1BC2861F009F5787 /* SwSelect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwSelect.swift; sourceTree = "<group>"; };
+		B9DF09281BC38A67009F5787 /* circle.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = circle.yml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 		B9DF08AF1BC25CC4009F5787 = {
 			isa = PBXGroup;
 			children = (
+				B9DF09281BC38A67009F5787 /* circle.yml */,
 				B9DF08E91BC27D7F009F5787 /* Playground */,
 				B9DF08E11BC27519009F5787 /* libxml2 */,
 				B9DF08DF1BC2719E009F5787 /* libxml2.2.tbd */,
@@ -221,6 +224,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9DF09291BC38A67009F5787 /* circle.yml in Resources */,
 				B9DF08D41BC25CE3009F5787 /* LICENSE in Resources */,
 				B9DF08E31BC275B6009F5787 /* module.modulemap in Resources */,
 			);

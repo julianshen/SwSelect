@@ -1,0 +1,6 @@
+machine:
+    environment:
+        version: "7.0"
+test:
+    override:
+    - xcodebuild test -scheme SwSelect -sdk iphonesimulator
