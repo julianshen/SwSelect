@@ -26,12 +26,29 @@ Please check unit test codes for more usages
 
   s.homepage     = "https://github.com/julianshen/SwSelect"
   s.license      = "MIT"
-  s.author             = { "Julian Shen" => "julianshen@gmail.com" }
+  s.author       = { "Julian Shen" => "julianshen@gmail.com" }
   s.source       = { :git => "https://github.com/julianshen/SwSelect.git", :tag => "0.0.1" }
 
-  s.source_files  = "**/*.swift"
-  s.library = "xml2"
+  s.ios.deployment_target = "8.0"
+  s.osx.deployment_target = "10.9"
+
   s.requires_arc = true
-  s.ios.deployment_target = '8.0'
-  s.osx.deployment_target = '10.9'
+  s.module_name = "SwSelect"
+  s.ios.library = "xml2"
+
+  s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" "$(PODS_ROOT)/SwSelect/libxml2", 'OTHER_LDFLAGS' => '-lxml2'}
+
+  s.module_map = 'SwSelect/libxml2/module.modulemap'
+
+  s.subspec 'libxml2' do |xs|
+      xs.source_files  = "SwSelect/libxml2/libxml2.h"
+      xs.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libxml2 $(PODS_ROOT)/libxml2/module' }
+      xs.library = "xml2"
+  end
+
+  s.subspec 'Core' do |core|
+      core.source_files  = "**/*.swift"
+  end
+
+
 end

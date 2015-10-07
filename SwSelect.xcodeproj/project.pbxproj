@@ -10,7 +10,6 @@
 		B9DF08BD1BC25CC4009F5787 /* SwSelect.h in Headers */ = {isa = PBXBuildFile; fileRef = B9DF08BC1BC25CC4009F5787 /* SwSelect.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B9DF08C41BC25CC4009F5787 /* SwSelect.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9DF08B91BC25CC4009F5787 /* SwSelect.framework */; settings = {ASSET_TAGS = (); }; };
 		B9DF08C91BC25CC4009F5787 /* SwSelectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DF08C81BC25CC4009F5787 /* SwSelectTests.swift */; };
-		B9DF08D41BC25CE3009F5787 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = B9DF08D31BC25CE3009F5787 /* LICENSE */; settings = {ASSET_TAGS = (); }; };
 		B9DF08D71BC26333009F5787 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DF08D61BC26333009F5787 /* Strings.swift */; settings = {ASSET_TAGS = (); }; };
 		B9DF08D91BC266D5009F5787 /* HTML.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DF08D81BC266D5009F5787 /* HTML.swift */; settings = {ASSET_TAGS = (); }; };
 		B9DF08DE1BC26B8E009F5787 /* libxml2.h in Headers */ = {isa = PBXBuildFile; fileRef = B9DF08DD1BC26B7D009F5787 /* libxml2.h */; settings = {ATTRIBUTES = (Private, ); }; };
@@ -237,7 +236,6 @@
 			files = (
 				B9DF09311BC4F2E3009F5787 /* LICENSE in Resources */,
 				B9DF09291BC38A67009F5787 /* circle.yml in Resources */,
-				B9DF08D41BC25CE3009F5787 /* LICENSE in Resources */,
 				B9DF09301BC4F2E3009F5787 /* SwSelect.podspec in Resources */,
 				B9DF092D1BC38F87009F5787 /* .travis.yml in Resources */,
 				B9DF08E31BC275B6009F5787 /* module.modulemap in Resources */,
