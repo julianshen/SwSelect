@@ -20,6 +20,8 @@
 		B9DF08EB1BC2861F009F5787 /* SwSelect.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DF08EA1BC2861F009F5787 /* SwSelect.swift */; settings = {ASSET_TAGS = (); }; };
 		B9DF09291BC38A67009F5787 /* circle.yml in Resources */ = {isa = PBXBuildFile; fileRef = B9DF09281BC38A67009F5787 /* circle.yml */; settings = {ASSET_TAGS = (); }; };
 		B9DF092D1BC38F87009F5787 /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = B9DF092C1BC38F87009F5787 /* .travis.yml */; settings = {ASSET_TAGS = (); }; };
+		B9DF09301BC4F2E3009F5787 /* SwSelect.podspec in Resources */ = {isa = PBXBuildFile; fileRef = B9DF092E1BC4F2E3009F5787 /* SwSelect.podspec */; settings = {ASSET_TAGS = (); }; };
+		B9DF09311BC4F2E3009F5787 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = B9DF092F1BC4F2E3009F5787 /* LICENSE */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		B9DF09281BC38A67009F5787 /* circle.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = circle.yml; sourceTree = "<group>"; };
 		B9DF092A1BC38DA4009F5787 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		B9DF092C1BC38F87009F5787 /* .travis.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
+		B9DF092E1BC4F2E3009F5787 /* SwSelect.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SwSelect.podspec; sourceTree = "<group>"; };
+		B9DF092F1BC4F2E3009F5787 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +79,8 @@
 		B9DF08AF1BC25CC4009F5787 = {
 			isa = PBXGroup;
 			children = (
+				B9DF092E1BC4F2E3009F5787 /* SwSelect.podspec */,
+				B9DF092F1BC4F2E3009F5787 /* LICENSE */,
 				B9DF09281BC38A67009F5787 /* circle.yml */,
 				B9DF092A1BC38DA4009F5787 /* README.md */,
 				B9DF092C1BC38F87009F5787 /* .travis.yml */,
@@ -229,8 +235,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9DF09311BC4F2E3009F5787 /* LICENSE in Resources */,
 				B9DF09291BC38A67009F5787 /* circle.yml in Resources */,
 				B9DF08D41BC25CE3009F5787 /* LICENSE in Resources */,
+				B9DF09301BC4F2E3009F5787 /* SwSelect.podspec in Resources */,
 				B9DF092D1BC38F87009F5787 /* .travis.yml in Resources */,
 				B9DF08E31BC275B6009F5787 /* module.modulemap in Resources */,
 			);
@@ -474,6 +482,7 @@
 				B9DF08CF1BC25CC4009F5787 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B9DF08D01BC25CC4009F5787 /* Build configuration list for PBXNativeTarget "SwSelectTests" */ = {
 			isa = XCConfigurationList;
@@ -482,6 +491,7 @@
 				B9DF08D21BC25CC4009F5787 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
